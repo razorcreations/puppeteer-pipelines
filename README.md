@@ -2,5 +2,5 @@
 
 A Docker image for running Puppeteer in Bitbucket Pipelines.
 
-- Node 9
+- Node 10
 - Google Chrome Stable

@@ -1,4 +1,4 @@
-FROM node:9
+FROM node:10
 
 RUN apt-get update \
  && apt-get install -y \
@@ -12,7 +12,7 @@ RUN apt-get update \
     fonts-kacst \
     fonts-thai-tlwg \
     fonts-wqy-zenhei \
-    google-chrome-stable \
+    google-chrome-unstable \
     ttf-freefont \
  && rm -rf /var/lib/apt/lists/* \
  && apt-get purge --auto-remove -y curl \
